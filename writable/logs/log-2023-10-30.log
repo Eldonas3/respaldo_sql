@@ -1,0 +1,15 @@
+CRITICAL - 2023-10-30 00:05:53 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Controllers\ExportarController.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-30 00:25:07 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Controllers\ExportarController.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-30 01:56:44 --> Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in D:\Universidad\TEC\Semestre V\Taller de base de datos\ExportarDB\ExportarDB\app\Config\Routes.php on line 9 and at least 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 1011.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->get('/exportaciones/exportar')
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('D:\\Universidad\\TEC\\Semestre V\\Taller de base de datos\\ExportarDB\\ExportarDB\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(787): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Universidad\\TEC\\Semestre V\\Taller de base de datos\\ExportarDB\\ExportarDB\\public\\index.php')
